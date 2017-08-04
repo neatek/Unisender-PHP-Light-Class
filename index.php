@@ -1,4 +1,4 @@
-# Unisender-PHP-Light-Class
+<?php
 
 require_once 'unisender.class.php';
 $uni = new Unisender("HERE_YOUR_API_KEY");
@@ -24,10 +24,3 @@ $import = [
 // Импорт контакта в лист
 // можно 7322182 перечислять через запятую.
 var_dump( $uni->import('7322182', $import) );
-
-# Support developer
-If you like my job (plugin) you can send me some $$$ on beer.
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/neatek/3)
-
-* Для русских пользователей вы можете использовать ссылку https://neatek.ru/support/ (Yandex деньги)
