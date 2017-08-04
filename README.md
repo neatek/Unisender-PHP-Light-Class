@@ -1,5 +1,6 @@
 # Unisender-PHP-Light-Class
 
+```
 require_once 'unisender.class.php';
 $uni = new Unisender("HERE_YOUR_API_KEY");
 
@@ -24,6 +25,7 @@ $import = [
 // Импорт контакта в лист
 // можно 7322182 перечислять через запятую.
 var_dump( $uni->import('7322182', $import) );
+```
 
 # Support developer
 If you like my job (plugin) you can send me some $$$ on beer.
