@@ -2,7 +2,7 @@
 class Unisender
 {
 	protected $apikey = '';
-	protected $apiurl = 'http://37.187.210.21/ru/api/';
+	protected $apiurl = 'https://api.unisender.com/ru/api/';
 	protected $lastrequest = 'No result';
 	function __construct($key) {
 		$this->apikey=$key;
