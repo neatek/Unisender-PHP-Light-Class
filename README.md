@@ -1,5 +1,7 @@
 # Unisender-PHP-Light-Class
 
+[![HitCount](http://hits.dwyl.io/neatek/Unisender-PHP-Light-Class.svg)](http://hits.dwyl.io/neatek/Unisender-PHP-Light-Class)
+
 ```
 require_once 'unisender.class.php';
 $uni = new Unisender("HERE_YOUR_API_KEY");
